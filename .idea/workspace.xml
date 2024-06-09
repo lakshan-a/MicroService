@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9297d19-0e88-4af3-aaf9-28d9ef1b4e2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_32.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/example/customer_service/controller/CustomerDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/com/example/customer_service/CustomerServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/example/customer_service/CustomerServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/com/example/customer_service/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/example/customer_service/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/item-service/src/main/java/com/example/item_service/ItemServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/main/java/com/example/item_service/ItemServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/item-service/src/main/java/com/example/item_service/controller/itemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/main/java/com/example/item_service/controller/itemController.java" afterDir="false" />
     </list>
@@ -42,6 +39,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="corretto-17" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -49,20 +48,34 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\OneDrive\Documents\microservice" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.customer_service.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.CustomerServiceApplication">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.ApiGateweyApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiGateweyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="api-gatewey" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.apigatewey.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.apigatewey.ApiGateweyApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,6 +115,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ApiGateweyApplication" />
         <item itemvalue="Spring Boot.CustomerServiceApplication" />
         <item itemvalue="Spring Boot.ServiceRegisryApplication" />
       </list>
@@ -117,7 +131,8 @@
       <updated>1717904570322</updated>
       <workItem from="1717904572023" duration="173000" />
       <workItem from="1717904785077" duration="2306000" />
-      <workItem from="1717908960826" duration="299000" />
+      <workItem from="1717908960826" duration="2044000" />
+      <workItem from="1717911041971" duration="884000" />
     </task>
     <servers />
   </component>
