@@ -18,6 +18,7 @@ import org.springframework.web.client.RestTemplate;
 @RequestMapping("api/v1/item")
 public class itemController {
 
+
     @Autowired
     public RestTemplate restTemplate;
 
@@ -29,7 +30,7 @@ public class itemController {
     @PostMapping("/save-item")
     public String saveItem(){
         System.out.println("item save  wade hari machan");
-        CustomerDto customerDto = new CustomerDto("C001","lakshan","matara");
+        CustomerDto customerDto = new CustomerDto("C001","navishka","matara");
         return restTemplate.postForObject("http://CUSTOMER-SERVICE/api/v1/customer/saveCustomer",customerDto,String.class);
     }
 }

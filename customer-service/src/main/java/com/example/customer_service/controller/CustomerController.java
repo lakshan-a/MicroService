@@ -6,7 +6,7 @@ import org.springframework.web.client.RestTemplate;
 
 /**
  * @version: v0.0.1
- * @author: lakshanR
+ * @author: navishka
  * @date: 5/31/2024
  */
 
@@ -29,5 +29,7 @@ public class CustomerController {
         System.out.println("customer save wade hari machan");
         System.out.println(customerDto);
         return customerDto.toString();
+
+
     }
 }
